@@ -54,15 +54,26 @@ display: inline-block}
 li{
 text-align: left;
 }
-
-
-
-
-
-
-
-
-
+table {
+    text-align: center;
+    display: inline-block;
+    border-spacing: 4px;
+    width: 50%;
+    border: 5px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr:nth-child(odd) {
+    background: red;
+    padding: 4px;
+}
+tr:nth-child(even) {
+    background: green;
+    padding: 4px;
+}
 footer {
     margin-top: 50px;
     width: 100%;
