@@ -45,6 +45,12 @@ nav {
     display: inline-block;
     transition: color .2s;
 }
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { display: inline; }
 #border {
     width: 960px;
     display: block;
