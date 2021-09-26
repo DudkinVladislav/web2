@@ -1,6 +1,14 @@
+@media screen and (max-device-width: 480px){
+body { margin:0;}
+nav{flex-direction:column;}
+#border {order 1;}
+#border ol{order 2;}
+#border form {order 3;}
+#border table {order 4;}
 body { margin:0;
 	text-align:center;
 	}
+}
 .header_first {
     width: 100%;
     height: 130px;
