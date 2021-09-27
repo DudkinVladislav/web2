@@ -41,6 +41,9 @@ nav {
   margin: 0;
   padding: 0;
   list-style-type: none;
+	display:flex;
+    flex-direction:colomn;
+    text-align: center;
 }
 #navbar li { display: inline; }
 #border {
@@ -95,11 +98,14 @@ footer {
 }
 @media screen and (min-width: 426px) {
 	body{magin: 0;}
-   nav {
-	   display: flex;
-        flex-direction: row;
-        margin: 10px 0 0 0;
-    }
+   #navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+	display:flex;
+    flex-direction:row;
+	   text-align: center;
+	}
     .menu li{
         margin: 5px 10px;
 
