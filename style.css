@@ -44,7 +44,7 @@ nav {letter-spacing:normal;
     display: flex;
     list-style: none;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding:4px;
 }
