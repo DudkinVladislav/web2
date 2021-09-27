@@ -66,7 +66,8 @@ text-align: left;
 }
 table {
     text-align: center;
-    display: inline-block;
+    display: flex;
+    justify-content:center;
     border-spacing: 4px;
     width: 50%;
     border: 5px;
