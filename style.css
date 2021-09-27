@@ -33,7 +33,7 @@ text-align:center;}
 #tast tablu{order 2;}
 nav {
     display:flex;
-    flex-direction:row;
+    flex-direction:colomn;
     margin: 0 auto;
     text-align: center;
 }
@@ -97,7 +97,7 @@ footer {
 	body{magin: 0;}
    nav {
 	   display: flex;
-        flex-direction: colomn;
+        flex-direction: row;
         margin: 10px 0 0 0;
     }
     .menu li{
