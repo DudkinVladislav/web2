@@ -1,6 +1,6 @@
 body { margin:0;}
 nav{display:flex;
-flex-direction:column;}
+flex-direction:row;}
 #task form  {order 1;}
 #tast tablu{order 2;}
 .header_first {
