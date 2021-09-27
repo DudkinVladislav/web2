@@ -64,7 +64,7 @@ li{
 text-align: left;
 }
 table {
-    /*text-align: center;*/
+    text-align: center;
     display: inline-block;
     border-spacing: 4px;
     width: 50%;
