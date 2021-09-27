@@ -69,7 +69,6 @@ table {
     display: flex;
     justify-content:center;
     border-spacing: 4px;
-    width: 50%;
     border: 5px;
 }
 	.gamePin{
