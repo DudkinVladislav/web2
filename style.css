@@ -10,6 +10,13 @@ flex-direction:row;}
     max-width: 300px;
     margin: 0 auto 0 auto;
 }
+.menu{
+    margin: 10px 10px 0 10px;       
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 #logo {
     width: 100px;
     height: 100px;
@@ -63,6 +70,13 @@ table {
     width: 50%;
     border: 5px;
 }
+	.gamePin{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 tbody {
     display: table-row-group;
     vertical-align: middle;
@@ -84,12 +98,25 @@ footer {
     margin-right: auto;
     text-align: center;
 }
-@media screen and (min-device-width: 1920px){
-	body { margin:0;
-	text-align:center;}
-	nav{	
-	display:flex;
-	flex-direction:row;
-	text-align:center;}
-	
+@media screen and (min-width: 426px) {
+    .menu{
+        flex-direction: row;
+        margin: 10px 0 0 0;
+    }
+    .menu li{
+        margin: 5px 10px;
+
+    }
+    .gamePin{
+        flex-direction:row;
+        margin: 10px 0 0 0;
+    }
+    
+    .content{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    table{
+        font-size: 20px;
+    }
 }
