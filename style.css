@@ -103,7 +103,7 @@ footer {
     margin-right: auto;
     text-align: center;
 }
-@media screen (min-device-width:800 px) 
+@media screen and (min-device-width: 800px) 
 {
 	body
 	{
