@@ -103,7 +103,7 @@ footer {
     margin-right: auto;
     text-align: center;
 }
-@media screen and (min-device-width:500 px) {
+@media screen and (min-device-width:480 px) {
 	body{magin: 0;
 	text-align:center;}
    #navbar {
