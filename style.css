@@ -91,6 +91,10 @@ tr:nth-child(even) {
     background: green;
     padding: 4px;
 }
+#task {display:flex;
+	flex-direction:column;}
+#task tablu{order:1;}
+#task forma{order:2;}
 footer {
     margin-top: 50px;
     width: 100%;
@@ -99,8 +103,9 @@ footer {
     margin-right: auto;
     text-align: center;
 }
-@media screen and (min-width: 426px) {
-	body{magin: 0;}
+@media screen and (min-width: 800px) {
+	body{magin: 0;
+	text-align:center;}
    #navbar {
   margin:10px 0 0 0;
   padding: 4px;
@@ -110,9 +115,11 @@ footer {
 	   text-align: center;
 	}
 	#navbar li{display: inline;}
-    }
-    }
     table{
         font-size: 20px;
     }
+	#task {display:flex;
+	flex-direction:column;}
+#task tablu{order:2;}
+#task forma{order:1;}
 }
