@@ -93,8 +93,8 @@ tr:nth-child(even) {
 }
 #task {display:flex;
 	flex-direction:column;}
-#task tablu{order:1;}
-#task forma{order:2;}
+#task tablu{order:2;}
+#task forma{order:1;}
 footer {
     margin-top: 50px;
     width: 100%;
@@ -120,6 +120,6 @@ footer {
     }
 	#task {display:flex;
 	flex-direction:column;}
-#task tablu{order:2;}
-#task forma{order:1;}
+#task tablu{order:1;}
+#task forma{order:2;}
 }
